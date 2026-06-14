@@ -72,6 +72,20 @@ Input MRI Volume
 
 ---
 
+## Visualization of Results
+
+The segmentation outputs are visualized using the MedVisPy platform.
+
+The system supports 3D MRI volume rendering and overlay visualization of segmented tissues, including:
+
+- Skull
+- Scalp
+- CSF
+
+Users can load the output `.nii.gz` segmentation files directly into MedVisPy to inspect results interactively.
+
+---
+
 ## Results
 
 The system was evaluated on neonatal MRI datasets and compared with standard tools:
